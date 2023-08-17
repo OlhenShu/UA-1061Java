@@ -1,7 +1,6 @@
 package src;
 
 import java.util.Scanner;
-
 public
 class CalculateAverage {
     public static void main(String[] arg){
