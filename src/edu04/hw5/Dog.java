@@ -1,9 +1,9 @@
 package edu04.hw5;
 
 public class Dog {
-    static private String name;
-    static private Breed breed;
-    static private int age;
+    private String name;
+    private Breed breed;
+    private int age;
 
     static private Dog oldestDog;
 
@@ -22,7 +22,7 @@ public class Dog {
     }
 
     public void setName(String name) {
-        Dog.name = name;
+        this.name = name;
     }
 
     public Breed getBreed() {
@@ -30,7 +30,7 @@ public class Dog {
     }
 
     public void setBreed(Breed breed) {
-        Dog.breed = breed;
+        this.breed = breed;
     }
 
     public int getAge() {
@@ -38,7 +38,7 @@ public class Dog {
     }
 
     public void setAge(int age) {
-        Dog.age = age;
+        this.age = age;
     }
 
     public static Dog getOldestDog() {
