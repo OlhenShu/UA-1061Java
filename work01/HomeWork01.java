@@ -13,6 +13,6 @@ public class HomeWork01 {
 
         System.out.println("Perimeter of the circle is: " + 2 * p * num1 + ".");
         System.out.println("Area of the circle is: " + p * num1 * num1 + ".");
-
+        System.out.println();
     }
 }
