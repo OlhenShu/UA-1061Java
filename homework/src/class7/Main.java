@@ -1,7 +1,6 @@
 package class7;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.UUID;
 
 public class Main {
