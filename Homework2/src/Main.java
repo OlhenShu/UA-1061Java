@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//dont forget formatting your code
 public class Main {
     public static void main(String[] args) {
         Scanner sq1 = new Scanner(System.in);
@@ -9,7 +10,7 @@ public class Main {
     }
         public static void choose(int lq){
         if(lq==1){
-            Scanner sd1 = new Scanner(System.in);
+            Scanner sd1 = new Scanner(System.in);// you don't need to create a new Scanner object every time you want to read something from the console.
             Scanner sd2 = new Scanner(System.in);
             Scanner sd3 = new Scanner(System.in);
             int a, b, c;
