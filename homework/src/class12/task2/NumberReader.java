@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+import static java.util.Arrays.toString;
 import static java.util.stream.Collectors.joining;
 
 public class NumberReader {
