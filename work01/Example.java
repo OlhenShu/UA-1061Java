@@ -21,5 +21,6 @@ public class Example {
         System.out.println(thirdString);
         System.out.println(secondString);
         System.out.println(firstString);
+        System.out.println();
     }
 }
