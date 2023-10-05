@@ -1,4 +1,4 @@
-package work01;
+package hw01;
 
 import java.util.Scanner;
 
