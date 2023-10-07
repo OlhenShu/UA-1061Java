@@ -52,5 +52,5 @@ public class Payment {
         System.out.println("Contract Employee Federal Tax ID: " + contractEmployee.federalTaxId);
         System.out.println("Contract Employee Pay: $" + contractEmployee.calculatePay());
     }
-}
+}//
 
