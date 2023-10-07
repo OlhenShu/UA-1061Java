@@ -3,14 +3,14 @@ public class Main {
     public static void main(String[] args){
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);// you don't need to create a new Scanner object every time you want to read something from the console.
         Scanner sl = new Scanner(System.in);
         Scanner sl1 = new Scanner(System.in);
         System.out.println("First homework task");
         System.out.println("Input radius");
         float numb = sc.nextFloat();
-        float pi= 3.14F;
-        float perime, area;
+        float pi= 3.14F;// you can use Math.PI
+        float perime, area;//don't use declare variables on the same line
 
         perime=2*pi*numb;
         System.out.println("Perimeter:"+perime);
@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Area:"+area);
 
         System.out.println("Second homework task");
-        String name,adress;
+        String name,adress;//address
         System.out.println("What is your name?");
         name=sl.nextLine();
         System.out.println("Where do you live, "+name);
@@ -55,3 +55,7 @@ public class Main {
         System.out.println("Total: "+total+" First call:"+a+" Second call:"+b+" Third call:"+c);
     }
 }
+//Don`t forget about conventions and code style.
+//https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html
+//https://google.github.io/styleguide/javaguide.html
+//https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
