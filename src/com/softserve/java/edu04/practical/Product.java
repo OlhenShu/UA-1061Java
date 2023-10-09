@@ -1,4 +1,4 @@
-package edu04.practical;
+package com.softserve.java.edu04.practical;
 
 class Product {
     String name;

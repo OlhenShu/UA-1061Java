@@ -1,4 +1,4 @@
-package edu04;
+package com.softserve.java.edu04;
 
 public class EnhancedSwithcExample {
     public static void main(String[] args) {

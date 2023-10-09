@@ -1,4 +1,4 @@
-package edu03;
+package com.softserve.java.edu03;
 
 public class Student {
     private String name;

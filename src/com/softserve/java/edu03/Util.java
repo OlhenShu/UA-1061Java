@@ -1,4 +1,4 @@
-package edu03;
+package com.softserve.java.edu03;
 
 public class Util {
     public static void print(String welcomeMessage, Object... messages) {

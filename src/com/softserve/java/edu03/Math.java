@@ -1,4 +1,4 @@
-package edu03;
+package com.softserve.java.edu03;
 //example of overriding methods
 public class Math {
     public int add(int a, int b) {

@@ -1,4 +1,4 @@
-package edu01.examples;
+package com.softserve.java.edu01.examples;
 
 public class Example {
     public static void main(String[] args) {

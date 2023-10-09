@@ -1,4 +1,4 @@
-package edu03.practical;
+package com.softserve.java.edu03.practical;
 
 import java.util.Scanner;
 
