@@ -33,6 +33,7 @@ public class FullName {
 
 abstract class Person {
 
+    protected String name;
     private FullName FullName;
     private int age;
 
@@ -41,18 +42,29 @@ abstract class Person {
         this.age = age;
     }
 
+    public Person(String name) {
+    }
+
     public String TheName() {
         return "First Name " + FullName.getFirstName() + ", last name " + FullName.getLastName() + ", age " + age;
+    }
+
+    public void info() {
     }
 
     public abstract String activity();
 
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
-        FullName fullName = new FullName("John", "Doe");
-        Person person = new Person(fullName, 30);
+        FullName fullName = new FullName("Jack", "Suick");
+        Person person = new Person(fullName, 25) {
+            @Override
+            public String activity() {
+                return null;
+            }
+        };
 
         System.out.println("Person Info: " + person.TheName());
         System.out.println("Activity: " + person.activity());
