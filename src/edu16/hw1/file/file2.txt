@@ -1,0 +1,4 @@
+Number of lines in file1.txt: 40
+The longest line in file1.txt.: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed placerat lorem ac lectus scelerisque, et commodo felis vestibulum.
+Name: Vitali
+Birthday: 15.05.1983
