@@ -1,6 +1,6 @@
 package work10;
 
-import java.util.HashSet;
+import java.util.HashSet;//
 import java.util.Set;
 public class HashSets {
     public static <T> Set<T> rock(Set<T> set1, Set<T> set2) {

@@ -1,6 +1,6 @@
 package work10;
 import java.util.HashMap;
-import java.util.Map;
+import java.util.Map;//
 
 public class PeoplesMaps {
     public static void main(String[] args) {
