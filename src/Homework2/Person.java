@@ -53,16 +53,14 @@ public class Person {
         }
     }
     public static void main(String[] args) {
-        // Create 5 objects of Person type
+
         Person[] people = new Person[5];
 
-        // Input information about each person
         for (int i = 0; i < people.length; i++) {
             people[i] = new Person();
             people[i].input();
         }
 
-        // Output information about each person
         for (Person person : people) {
             person.output();
             System.out.println();
