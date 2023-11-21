@@ -1,4 +1,4 @@
-package Homework2;
+package OOPIntroduction;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
